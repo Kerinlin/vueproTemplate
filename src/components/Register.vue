@@ -26,7 +26,7 @@
         </FormItem>
 
         <FormItem prop="verification" class="verification">
-        <Input type="text" v-model="formInline.verification"  placeholder="Please enter the verification code below">
+        <Input autocomplete="off" type="text" v-model="formInline.verification"  placeholder="Please enter the verification code below">
         <Icon size="16" type="" slot="prepend"></Icon>
           </Input>
         </FormItem>
