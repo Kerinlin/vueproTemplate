@@ -1,4 +1,4 @@
-const rules={
+const rules = {
   email: [
     {
       required: true,
@@ -46,7 +46,70 @@ const rules={
       message: "Please fill in the verification.",
       trigger: "blur"
     }
+  ],
+  fullname: [
+    {
+      required: true,
+      message: "Please fill your fullname.",
+      trigger: "blur"
+    }
+  ],
+  telephone: [
+    {
+      required: true,
+      message: "Please fill your telphone.",
+      trigger: "blur"
+    }
+  ],
+  nationality: [
+    {
+      required: true,
+      message: "Please chose your nationality.",
+      trigger: "blur"
+    }
+  ],
+  license: [
+    {
+      required: true,
+      message: "Please chose your nationality.",
+      trigger: "blur"
+    }
+  ],
+  identity: [
+    {
+      required: true,
+      message: "Please chose your nationality.",
+      trigger: "blur"
+    }
+  ],
+  proof: [
+    {
+      required: true,
+      message: "Please chose your nationality.",
+      trigger: "blur"
+    }
+  ],
+  address: [
+    {
+      required: true,
+      message: "Please chose your nationality.",
+      trigger: "blur"
+    }
+  ],
+  invest: [
+    {
+      required: true,
+      message: "Please chose your nationality.",
+      trigger: "blur"
+    }
+  ],
+  wallet: [
+    {
+      required: true,
+      message: "Please chose your nationality.",
+      trigger: "blur"
+    }
   ]
-}
+};
 
 export default rules;

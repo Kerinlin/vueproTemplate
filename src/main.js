@@ -24,11 +24,11 @@ Vue.use(VueI18n)
 Vue.use(iView);
 
 // langs=JSON.parse(JSON.stringify(langs))
-console.log(langs)
+// console.log(langs)
 
 
 const i18n = new VueI18n({
-  locale: 'cn', // set locale
+  locale: 'en', // set locale
   messages:langs, // set locale messages
 })
 
